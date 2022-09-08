@@ -9,12 +9,14 @@ This is based on MLIR standalone example
 
 - github actions
 
-## How to run
+## How to build
 From the project root directory, run following commands
 ```bash
 cmake -G <genertor> -DCMAKE_BUILD_TYPE=<build_type> .
 cmake --build . --target all -j6
 ```
+After this, you will find example executables under the bin directory
+
 
 ## Support Tool
 
