@@ -31,3 +31,9 @@ cmake-build-debug
 # Python files
 *.pyc
 /.pytest_cache
+
+*/temp
+
+#temporarily generated files
+*.inc.d
+*.inc
