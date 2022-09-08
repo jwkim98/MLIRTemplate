@@ -9,6 +9,13 @@ This is based on MLIR standalone example
 
 - github actions
 
+## How to run
+From the project root directory, run following commands
+```bash
+cmake -G <genertor> -DCMAKE_BUILD_TYPE=<build_type> .
+cmake --build . --target all -j6
+```
+
 ## Support Tool
 
 - Codecov
