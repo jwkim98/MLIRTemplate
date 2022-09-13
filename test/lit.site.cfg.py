@@ -11,8 +11,8 @@ def path(p):
 config.llvm_tools_dir = lit_config.substitute("/usr/local/bin")
 config.lit_tools_dir = ""
 config.mlir_obj_dir = "/Users/justin/Documents/projects/MLIRTemplate"
-config.python_executable = ""
-config.enable_bindings_python = 0
+config.python_executable = "/opt/homebrew/Frameworks/Python.framework/Versions/3.10/bin/python3.10"
+config.enable_bindings_python = 1
 config.example_src_root = "/Users/justin/Documents/projects/MLIRTemplate"
 config.example_obj_root = "/Users/justin/Documents/projects/MLIRTemplate"
 

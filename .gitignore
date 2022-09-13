@@ -31,9 +31,22 @@ cmake-build-debug
 # Python files
 *.pyc
 /.pytest_cache
-
+python_packages
 */temp
 
-#temporarily generated files
+#tablegen generated files
 *.inc.d
 *.inc
+
+#binary files
+*.a
+*.o
+lib
+bin
+
+#build files
+build
+*.ninja
+*.ninja_deps
+*.ninja_log
+*.cmake/

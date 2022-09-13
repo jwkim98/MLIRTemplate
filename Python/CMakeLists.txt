@@ -14,8 +14,8 @@ declare_mlir_python_sources(ExamplePythonSources)
 
 declare_mlir_dialect_python_bindings(
         ADD_TO_PARENT ExamplePythonSources
-        ROOT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/mlir_Example"
-        TD_FILE dialects/ExampleOps.td
+        ROOT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/MLIRTemplate"
+        TD_FILE Dialects/ExampleOps.td
         SOURCES
         dialects/Example.py
         DIALECT_NAME Example)

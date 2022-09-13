@@ -4,7 +4,10 @@ project(example-dialect LANGUAGES CXX C)
 set(CMAKE_BUILD_WITH_INSTALL_NAME_DIR ON)
 
 set(CMAKE_CXX_STANDARD 17 CACHE STRING "C++ standard to conform to")
-
+#
+# CMake policy
+#
+cmake_policy(SET CMP0116 NEW)
 find_package(MLIR REQUIRED CONFIG)
 
 message(STATUS "Using MLIRConfig.cmake in: ${MLIR_DIR}")
@@ -32,6 +35,9 @@ include_directories(${PROJECT_SOURCE_DIR}/Includes)
 include_directories(${PROJECT_BINARY_DIR}/Includes)
 link_directories(${LLVM_BUILD_LIBRARY_DIR})
 add_definitions(${LLVM_DEFINITIONS})
+
+include(CMake/CodeCoverage.cmake)
+include(CMake/CompileOptions.cmake)
 
 add_subdirectory(Includes)
 add_subdirectory(Sources)

@@ -10,6 +10,6 @@
 #define PYTHON_BINDINGS_STANDALONE_OPS
 
 include "mlir/Bindings/Python/Attributes.td"
-include "Standalone/StandaloneOps.td"
+include "MLIRTemplate/Dialects/ExampleDialect/ExampleOps.td"
 
 #endif
