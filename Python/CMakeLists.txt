@@ -17,7 +17,7 @@ declare_mlir_dialect_python_bindings(
         ROOT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/MLIRTemplate"
         TD_FILE Dialects/ExampleOps.td
         SOURCES
-        dialects/Example.py
+        Dialects/example.py
         DIALECT_NAME Example)
 
 declare_mlir_python_extension(ExamplePythonSources.Extension

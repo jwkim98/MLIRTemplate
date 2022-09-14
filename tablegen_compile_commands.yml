@@ -17,5 +17,5 @@
   filepath: "/Users/justin/Documents/projects/MLIRTemplate/Includes/MLIRTemplate/Dialects/ExampleDialect/ExampleOps.td"
   includes: "/Users/justin/Documents/projects/MLIRTemplate/Includes/MLIRTemplate/Dialects/ExampleDialect;/usr/local/include;/usr/local/include;/Users/justin/Documents/projects/MLIRTemplate/Includes;/Users/justin/Documents/projects/MLIRTemplate/Includes"
 --- !FileInfo:
-  filepath: "/Users/justin/Documents/projects/MLIRTemplate/python/MLIRTemplate/Dialects/ExampleOps.td"
-  includes: "/Users/justin/Documents/projects/MLIRTemplate/python;/usr/local/include;/usr/local/include;/Users/justin/Documents/projects/MLIRTemplate/Includes;/Users/justin/Documents/projects/MLIRTemplate/Includes"
+  filepath: "/Users/justin/Documents/projects/MLIRTemplate/Python/MLIRTemplate/Dialects/ExampleOps.td"
+  includes: "/Users/justin/Documents/projects/MLIRTemplate/Python;/usr/local/include;/usr/local/include;/Users/justin/Documents/projects/MLIRTemplate/Includes;/Users/justin/Documents/projects/MLIRTemplate/Includes"

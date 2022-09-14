@@ -15,15 +15,15 @@ build
 
 # Visual Studio Code files
 /.vscode
-*.code-workspace 
+*.code-workspace
 
 # OSX files
 .DS_Store
 
 # CLion files
 /.idea
-cmake-build-release
 cmake-build-debug
+cmake-buiod-release
 
 # vi files
 .clang_complete
